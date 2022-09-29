@@ -61,5 +61,5 @@ def logout_user(request):
 data_barang_wishlist = BarangWishlist.objects.all()
 context = {
     'list_barang': data_barang_wishlist,
-    'nama': 'Tristan'
+    'nama': 'Nanda Tristan Ardiansyah'
 }
